@@ -207,15 +207,15 @@ input[type=submit] {
 
     }
     .username{
-        margin-left:50px;
-        margin-right:10px;
+        width:390px;
+        margin-left:25px;
+        margin-right:0px;
     }
     nav{
-        display:inline-block;
-        float:right;
-        max-width:100%;
+        position:fixed;
         margin-top:0px;
-        margin-left:300px;
+        margin-left:413px;
+        margin-top:25px;
     }
 }
 
@@ -225,9 +225,26 @@ input[type=submit] {
         margin-right:50px;
 
     }
+    #mainhead{
+        max-width:100%;
+
+    }
     .username{
-        margin-left:50px;
-        margin-right:10px;
+        margin-top:0;
+        padding:.60em;
+        text-align:center;
+    }
+    nav{
+        margin:0;
+        padding:0;
+        text-align:center;
+        display:inline;
+
+    }
+    nav a{
+        display:inline-block;
+        padding:0;
+        text-decoration:none;
     }
 }
 
