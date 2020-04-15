@@ -193,3 +193,15 @@ input[type=submit] {
     border-bottom:0;
     background:#4aaaa5;
 }
+
+@media screen and (max-width:980px){
+    body:
+}
+
+@media screen and (max-width:768px){
+    body:
+}
+
+@media screen and (max-width:640px){
+    body:
+}
