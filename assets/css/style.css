@@ -41,9 +41,9 @@ body{
 
 nav{
     position:static;
-    float:left;
+    float:right;
     margin-top:25px;
-    margin-right:300px;
+    margin-right:25px;
     color:#777777;
 }   
 
@@ -214,7 +214,7 @@ input[type=submit] {
     nav{
         position:fixed;
         margin-top:0px;
-        margin-left:413px;
+        margin-left:500px;
         margin-top:25px;
     }
 }
@@ -235,21 +235,36 @@ input[type=submit] {
         text-align:center;
     }
     nav{
-        margin:0;
-        padding:0;
-        text-align:center;
-        display:inline;
-
-    }
-    nav a{
-        display:inline-block;
-        padding:0;
-        text-decoration:none;
+        position:fixed;
+        margin-top:0px;
+        margin-left:420px;
+        margin-top:25px;
     }
 }
 
 @media screen and (max-width:640px){
-    #mainhead{
-        position:static;
+    #mainwrapper{
+        max-width:100%;
+        margin-left:50px;
+        margin-right:50px;
     }
+    #mainhead{
+        max-width:100%;
+        float:left;
+
+    }
+    .username{
+        position:static;
+        width:100%;
+        margin-left:0px;
+    }
+
+    nav{
+        width:100%;
+        position:relative;
+        text-align:center;
+        display:inline-block;
+        margin-left:20px;
+    }
+    
 }
