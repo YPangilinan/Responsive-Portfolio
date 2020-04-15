@@ -40,7 +40,8 @@ body{
 }
 
 nav{
-    float:right;
+    position:static;
+    float:left;
     margin-top:25px;
     margin-right:300px;
     color:#777777;
@@ -195,13 +196,43 @@ input[type=submit] {
 }
 
 @media screen and (max-width:980px){
-    body:
+    #mainwrapper{
+        max-width:100%;
+        margin-left:50px;
+        margin-right:200px;
+    }
+    #mainhead{
+        max-width:100%;
+        float: left;
+
+    }
+    .username{
+        margin-left:50px;
+        margin-right:10px;
+    }
+    nav{
+        display:inline-block;
+        float:right;
+        max-width:100%;
+        margin-top:0px;
+        margin-left:300px;
+    }
 }
 
 @media screen and (max-width:768px){
-    body:
+    #mainwrapper{
+        max-width:100%;
+        margin-right:50px;
+
+    }
+    .username{
+        margin-left:50px;
+        margin-right:10px;
+    }
 }
 
 @media screen and (max-width:640px){
-    body:
+    #mainhead{
+        position:static;
+    }
 }
